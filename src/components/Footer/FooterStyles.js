@@ -112,6 +112,17 @@ export const SocialContainer = styled.div`
 	}
 `
 
+export const SocialContainer1 = styled.div`
+	display: flex;
+  	align-items: center;
+	justify-content: center;
+	@media ${props => props.theme.breakpoints.md}{
+		justify-content: center;
+		padding-right: 16px;
+		flex-wrap: wrap;
+	}
+`
+
 
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);

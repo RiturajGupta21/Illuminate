@@ -3,30 +3,30 @@ import React from 'react';
 import { Section1 } from '../../styles/GlobalComponents';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillYoutube, AiFillFacebook } from 'react-icons/ai';
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { SocialContainer } from '../Footer/FooterStyles';
+import { SocialIcons1 } from '../Header/HeaderStyles';
+import { SocialContainer1 } from '../Footer/FooterStyles';
 
 const Hero = () => (
   <>
     <Section1>
       <img src="./images/background.png" alt="new" />
-      <SocialContainer>
-        <SocialIcons href="https://www.instagram.com/codexiter/">
+      <SocialContainer1>
+        <SocialIcons1 href="https://www.instagram.com/codexiter/">
           <AiFillInstagram size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.facebook.com/codexiter/">
+        </SocialIcons1>
+        <SocialIcons1 href="https://www.facebook.com/codexiter/">
           <AiFillFacebook size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://github.com/codex-iter">
+        </SocialIcons1>
+        <SocialIcons1 href="https://github.com/codex-iter">
           <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/company/codex-iter/">
+        </SocialIcons1>
+        <SocialIcons1 href="https://www.linkedin.com/company/codex-iter/">
           <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.youtube.com/channel/UCu1S3gm2ODknxDlkpPX2RrA">
+        </SocialIcons1>
+        <SocialIcons1 href="https://www.youtube.com/channel/UCu1S3gm2ODknxDlkpPX2RrA">
           <AiFillYoutube size="3rem" />
-        </SocialIcons>
-      </SocialContainer>
+        </SocialIcons1>
+      </SocialContainer1>
     </Section1>
   </>
 );

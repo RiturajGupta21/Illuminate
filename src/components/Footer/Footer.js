@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating the Experience</Slogan>
+          <Slogan>Made with ❤️ in <a href="https://codex-iter.in/" target ="_blank">Codex</a></Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/codex-iter">
