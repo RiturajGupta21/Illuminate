@@ -28,7 +28,7 @@ const Events = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={p.visit}>Register</ExternalLinks>
-              <ExternalLinks href={p.source}>Images</ExternalLinks>
+              {/* <ExternalLinks href={p.source}>Images</ExternalLinks> */}
             </UtilityList>
           </BlogCard>
         );

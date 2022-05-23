@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, NavLink } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
@@ -25,17 +24,6 @@ const Header = () =>  (
         </Link>
       </li>        
     </Div2>
-      <Div3>
-        <SocialIcons href="https://github.com/codex-iter">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/company/codex-iter/">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://instagram.com/illuminate.iter">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons>
-      </Div3>
     </Container>
 );
 

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
@@ -13,7 +12,7 @@ const Hero = (props) => (
           ITER's 1st Tech Fest
         </SectionTitle>
         <SectionText>
-          Club CODEX  brings you the most awaited Tech Event of the year consisting of multiple exciting events. Students across all branches and years will be involved in this day long event and winners will be getting prizes thus bringing excitement and encouragement. 
+          Club CODEX  brings you the most awaited Tech Event of the year consisting of multiple exciting events. Students across all branches and years will be involved in this day long event and winners will be getting prizes thus bringing excitement and encouragement.
           This event is restricted only to ITER Students.
         </SectionText>
       </LeftSection>

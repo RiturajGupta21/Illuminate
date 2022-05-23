@@ -24,6 +24,30 @@ export const Section = styled.section`
   }
 `
 
+export const Section1 = styled.section`
+  display: ${(props) => props.grid ? "grid" : "flex" };
+  flex-direction: ${(props) => props.row ? "row" : "column" };
+  padding: ${(props) => props.nopadding ? "0" : "0" };
+  margin: 0 auto;
+  max-width: 1050px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 2fr;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: ${(props) => props.nopadding ? "0" : "0" } ;
+
+    width: calc(100vw - 32px);
+    flex-direction: column;
+  }
+`
+
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
