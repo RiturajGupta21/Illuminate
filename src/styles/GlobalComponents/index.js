@@ -43,6 +43,16 @@ grid-template-columns: 1fr 1fr;
   max-width: 800px;
 }
 
+
+@media ${(props) => props.theme.breakpoints.xmd} {
+  display: ${(props) => props.grid ? "grid" : "flex"};
+  flex-direction: ${(props) => props.row ? "row" : "column"};
+  padding: ${(props) => props.nopadding ? "0" : "0"} ;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+
 @media ${(props) => props.theme.breakpoints.sm} {
   padding: ${(props) => props.nopadding ? "0" : "0"} ;
   width: calc(100vw - 32px);

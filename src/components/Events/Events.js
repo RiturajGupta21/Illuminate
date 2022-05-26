@@ -12,22 +12,35 @@ const Events = () => (
       {events.map((p, i) => {
         return (
           <BlogCard key={i}>
-          <Img src={p.image} />
+            <Img src={p.image} />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Prize</TitleContent>
+              <br></br>
+              <TitleContent style={{textDecoration: 'underline', fontWeight: 'bold', fontSize: 'large'}}>Prize</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
                 })}
               </TagList>
             </div>
+            <TitleContent style={{ textAlign: 'left', marginLeft: '20px' }}>Timing: - </TitleContent>
+            <TagList>
+              {p.tags2.map((t, i) => {
+                return <Tag key={i}>{t}</Tag>;
+              })}
+            </TagList>
+            <TitleContent style={{ textAlign: 'left', marginLeft: '20px' }}>Contact: -</TitleContent>
+            <TagList>
+              {p.tags1.map((t, i) => {
+                return <Tag key={i}>{t}</Tag>;
+              })}
+            </TagList>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Register</ExternalLinks>
+              <ExternalLinks href={p.visit} target ="_blank">Register</ExternalLinks>
               {/* <ExternalLinks href={p.source}>Images</ExternalLinks> */}
             </UtilityList>
           </BlogCard>
