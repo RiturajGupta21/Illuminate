@@ -3,6 +3,8 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './EventsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { events } from '../../constants/constants';
+import { AiFillPhone } from 'react-icons/ai';
+import { LinkItem } from '../Footer/FooterStyles';
 
 const Events = () => (
   <Section nopadding id="events">
@@ -14,7 +16,7 @@ const Events = () => (
           <BlogCard key={i}>
             <Img src={p.image} />
             <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
+              {/* <HeaderThree title>{p.title}</HeaderThree> */}
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
@@ -36,7 +38,7 @@ const Events = () => (
             <TitleContent style={{ textAlign: 'left', marginLeft: '20px' }}>Contact: -</TitleContent>
             <TagList>
               {p.tags1.map((t, i) => {
-                return <Tag key={i}>{t}</Tag>;
+                return <Tag key={i}><LinkItem href={[`tel:${t.substring(t.length - 11,t.length-1)}`]}><AiFillPhone />{t}</LinkItem></Tag>;
               })}
             </TagList>
             <UtilityList>

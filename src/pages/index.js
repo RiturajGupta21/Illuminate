@@ -6,10 +6,11 @@ import Projects from '../components/Events/Events';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-
+import Head from 'next/head'
 const Home = () => {
   return (
     <Layout>
+      <Head> <title>Illuminate -By CODEX</title> </Head>
       <Section grid>
         <Hero_1 />
       </Section>
