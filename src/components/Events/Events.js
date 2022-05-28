@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './EventsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './EventsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { events } from '../../constants/constants';
 import { AiFillPhone } from 'react-icons/ai';
