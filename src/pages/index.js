@@ -2,10 +2,12 @@ import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation'
 import Acomplishments from '../components/Acomplishments/Acomplishments';
 import Hero from '../components/Hero/Hero';
 import Hero_1 from '../components/Hero/Hero_1';
-import Projects from '../components/Events/Events';
+import Events from '../components/Events/Events';
 import Timeline from '../components/TimeLine/TimeLine';
+import Rules from '../components/Rules/Rules';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+
 import Head from 'next/head'
 const Home = () => {
   return (
@@ -18,7 +20,8 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
-      <Projects />
+      <Events />
+      <Rules />
       <Timeline />
       {/* <Acomplishments /> */}
     </Layout>
