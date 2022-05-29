@@ -16,7 +16,8 @@ place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   flex-direction: column;
   padding: 2rem;
   padding-bottom: 0;
@@ -29,7 +30,7 @@ export const BlogCard = styled.div`
   margin: 2px;
   width: 200px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+    width: 100px;
   }
 `;
 export const TitleContent = styled.div`
@@ -46,6 +47,9 @@ export const HeaderThree = styled.h3`
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 1.6rem;
+  }
 `;
 
 export const Hr = styled.hr`

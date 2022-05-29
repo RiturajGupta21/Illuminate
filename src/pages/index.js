@@ -9,24 +9,25 @@ import Organizers from '../components/Organizers/Organizers';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
-import Head from 'next/head'
+
 const Home = () => {
   return (
-    <Layout>
-      <Head> <title>Illuminate -By CODEX</title> </Head>
-      <Section grid>
-        <Hero_1 />
-      </Section>
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Events />
-      <Rules />
-      <Timeline />
-      <Organizers />
-      {/* <Acomplishments /> */}
-    </Layout>
+    <>
+      <Layout>
+        <Section grid>
+          <Hero_1 />
+        </Section>
+        <Section grid>
+          <Hero />
+          <BgAnimation />
+        </Section>
+        <Events />
+        <Rules />
+        <Timeline />
+        {/* <Organizers /> */}
+        {/* <Acomplishments /> */}
+      </Layout>
+    </>
   );
 };
 

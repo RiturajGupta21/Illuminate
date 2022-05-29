@@ -32,13 +32,13 @@ export const BlogCard = styled.div`
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
 
 `;
-
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -56,17 +56,6 @@ export const Hr = styled.hr`
   background: #d0bb57;
 `;
 
-export const Intro = styled.div`
-  width: 170px;
-  margin: 0 auto;
-  color: #dce3e7;
-  font-family: 'Droid Serif', serif;
-  font-size: 13px;
-  font-style: italic;
-  line-height: 18px;
-`;
-
-
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
@@ -79,7 +68,6 @@ export const CardInfo = styled.p`
   
 }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
