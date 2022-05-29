@@ -3,7 +3,6 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './EventsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { events } from '../../constants/constants';
-import { AiFillPhone } from 'react-icons/ai';
 import { LinkItem } from '../Footer/FooterStyles';
 
 const Events = () => (
@@ -38,7 +37,7 @@ const Events = () => (
             <TitleContent style={{ textAlign: 'left', marginLeft: '20px' }}>Contact: -</TitleContent>
             <TagList>
               {p.tags1.map((t, i) => {
-                return <Tag key={i}><LinkItem href={[`tel:${t.substring(t.length - 11,t.length-1)}`]}><AiFillPhone />{t}</LinkItem></Tag>;
+                return <Tag key={i}><LinkItem href={[`tel:${t.substring(t.length - 11,t.length-1)}`]}>{t}</LinkItem></Tag>;
               })}
             </TagList>
             <UtilityList>

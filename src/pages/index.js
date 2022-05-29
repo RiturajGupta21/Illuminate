@@ -5,6 +5,7 @@ import Hero_1 from '../components/Hero/Hero_1';
 import Events from '../components/Events/Events';
 import Timeline from '../components/TimeLine/TimeLine';
 import Rules from '../components/Rules/Rules';
+import Organizers from '../components/Organizers/Organizers';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
@@ -23,6 +24,7 @@ const Home = () => {
       <Events />
       <Rules />
       <Timeline />
+      <Organizers />
       {/* <Acomplishments /> */}
     </Layout>
   );
