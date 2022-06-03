@@ -18,9 +18,9 @@ const Organizers = () => (
               <Hr />
             </TitleContent>
             <UtilityList>
-              <a href={p.github} target ="_blank"><AiFillGithub size="3rem" /></a>
-              <a href={p.instagram} target ="_blank"><AiFillInstagram size="3rem" /></a>
-              <a href={p.linkedin} target ="_blank"><AiFillLinkedin size="3rem" /></a>
+              <a href={p.github} target ="_blank" style={{color: '#945DD6'}}><AiFillGithub size="3rem" /></a>
+              <a href={p.instagram} target ="_blank" style={{color: '#945DD6'}}><AiFillInstagram size="3rem" /></a>
+              <a href={p.linkedin} target ="_blank" style={{color: '#945DD6'}}><AiFillLinkedin size="3rem" /></a>
             </UtilityList>
           </BlogCard>
         );

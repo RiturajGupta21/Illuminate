@@ -18,7 +18,8 @@ const Technologies = () => (
                     <ListParagraph>
                         1. This is a team competition in which a minimum 2 and maximum of 4 participants are required with 1 girl compulsory. <br />
                         2. There is a registration fee of ₹100 per team. <br />
-                        3. When the contest is live 1 member of the team should always be there at the desk.
+                        3. When the contest is live 1 member of the team should always be there at the desk.<br />
+                        4. Participants are supposed to bring their own laptops.
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

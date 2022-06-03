@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './EventsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, Hr, Tag, TagList, TitleContent, UtilityList, Img, HeaderThree } from './EventsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { events } from '../../constants/constants';
 import { LinkItem } from '../Footer/FooterStyles';
@@ -13,9 +13,9 @@ const Events = () => (
       {events.map((p, i) => {
         return (
           <BlogCard key={i}>
-            <Img src={p.image} />
+            {/* <Img src={p.image} /> */}
             <TitleContent>
-              {/* <HeaderThree title>{p.title}</HeaderThree> */}
+              <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>

@@ -41,7 +41,7 @@ export const organizers = [
     },
     {
         title: 'Ankit Singh',
-        image: 'https://media-exp1.licdn.com/dms/image/C4D03AQEQOd30cSTE6Q/profile-displayphoto-shrink_800_800/0/1615556658687?e=1659571200&v=beta&t=xe6oZ8FQqFwksrAV5KkYYCjjfcrlr0mtZEAONIrKfZM',
+        image: 'https://media-exp1.licdn.com/dms/image/C4D03AQFzwC9v-FVPnA/profile-displayphoto-shrink_400_400/0/1653880229265?e=1659571200&v=beta&t=zA_4uqQGeaxOWEFYatBu6VC9-v7TdMTSgfg4Fp0igw8',
         github: 'https://github.com/ankitSaebby',
         instagram: 'https://www.instagram.com/ankit_aebby/',
         linkedin: 'https://www.linkedin.com/in/ankit-singh-486993192/',

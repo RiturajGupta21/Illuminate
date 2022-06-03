@@ -47,7 +47,7 @@ export const events = [
 
 export const TimeLineData = [
   { time: "29th May", text: 'Registrations Opens', },
-  { time: "15th Jun", text: 'Registrations Close', },
-  { time: "3rdWeek Jun", text: 'Event Date', },
+  { time: "To be announced later", text: 'Registrations Close', },
+  { time: "To be announced later", text: 'Event Date', },
   // { time: "3rdWeek Jun", text: 'Event Ends', }
 ];
