@@ -11,6 +11,28 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "redirects": [
+      {
+        "source": "/hw",
+        "destination": "https://forms.gle/bEcC8f9xTae6MdgC9",
+        "type": 301
+      },
+      {
+        "source": "/ctf",
+        "destination": "https://forms.gle/ZmpM5gb91DeyxYJf8",
+        "type": 301
+      },
+      {
+        "source": "/snc",
+        "destination": "https://forms.gle/J73szhbyDKdNUNPb8",
+        "type": 301
+      },
+      {
+        "source": "/cnc",
+        "destination": "https://forms.gle/zqqhVonjnradSsjX7",
+        "type": 301
+      }
     ]
   }
 }
