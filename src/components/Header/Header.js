@@ -3,12 +3,12 @@ import React from 'react';
 
 import { Container, Div1, Div2, NavLink } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-        <img src="./images/logo.svg" alt="logo"/>
+        <a >
+          <img src="./images/logo.svg" alt="logo" />
         </a>
       </Link>
     </Div1>
@@ -17,14 +17,19 @@ const Header = () =>  (
         <Link href="#events">
           <NavLink>Events</NavLink>
         </Link>
-      </li>      
-      <li>
+      </li>
+      {/* <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
-      </li>        
+      </li> */}
+      <li>
+        <Link href="#domain">
+          <NavLink>Domain</NavLink>
+        </Link>
+      </li>
     </Div2>
-    </Container>
+  </Container>
 );
 
 export default Header;

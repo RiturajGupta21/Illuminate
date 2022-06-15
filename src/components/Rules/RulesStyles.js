@@ -19,7 +19,7 @@ export const List = styled.ul`
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
     flex-direction: column;
-    margin: 32px 0;
+    margin: 32px 24px;
   }
 `
 

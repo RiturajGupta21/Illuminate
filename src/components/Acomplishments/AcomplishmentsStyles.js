@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Boxes = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin: 24px 0 40px;
 
@@ -15,7 +15,7 @@ export const Boxes = styled.div`
 
   @media ${props => props.theme.breakpoints.sm}{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     max-width: 500px;
     margin: 24px auto;
@@ -60,8 +60,8 @@ export const BoxNum = styled.h5`
     line-height: 32px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 32px;
+    line-height: 36px;
 }
 `
 
@@ -79,7 +79,7 @@ export const BoxText = styled.p`
   };
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 18px;
     line-height: 14px;
   }
 `

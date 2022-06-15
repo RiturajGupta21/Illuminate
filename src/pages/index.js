@@ -6,6 +6,8 @@ import Events from '../components/Events/Events';
 import Timeline from '../components/TimeLine/TimeLine';
 import Rules from '../components/Rules/Rules';
 import Organizers from '../components/Organizers/Organizers';
+import Sponsors from '../components/Sponsor/Sponsor'
+import HackerWar from '../components/HackerWar/Domain'
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
@@ -22,10 +24,12 @@ const Home = () => {
           <BgAnimation />
         </Section>
         <Events />
+        <HackerWar />
         <Rules />
         <Timeline />
-        {/* <Organizers /> */}
-        {/* <Acomplishments /> */}
+        {/* <Sponsors />
+        <Organizers /> */}
+        <Acomplishments />
       </Layout>
     </>
   );

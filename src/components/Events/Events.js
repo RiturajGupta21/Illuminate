@@ -20,6 +20,11 @@ const Events = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
+            <TagList>
+                {p.tags3.map((t, i) => {
+                  return <Tag style={{textDecoration: 'underline', fontWeight: 'bold', fontSize: 'large'}} key={i}>{t}</Tag>;
+                })}
+              </TagList>
               <br></br>
               <TitleContent style={{textDecoration: 'underline', fontWeight: 'bold', fontSize: 'large'}}>Prize</TitleContent>
               <TagList>
