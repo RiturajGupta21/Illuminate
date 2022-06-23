@@ -18,11 +18,11 @@ const Header = () => (
           <NavLink>Events</NavLink>
         </Link>
       </li>
-      {/* <li>
+      <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
-      </li> */}
+      </li>
       <li>
         <Link href="#domain">
           <NavLink>Domain</NavLink>

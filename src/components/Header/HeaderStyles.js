@@ -22,15 +22,21 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 1 / 2;
+    grid-area: 2 / 1 / 1 / 2;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 2 / 3 / 1 / 4;
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 6 / 1 / 5;
+  grid-area: 1 / 5 / 4 / 8;
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 4 / 3 / 5;
+    grid-area: 3 / 2 / 3 / 6;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 2 / 1 / 4 / 6;
   }
 `;
 
