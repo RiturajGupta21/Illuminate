@@ -27,8 +27,8 @@ const Home = () => {
         <HackerWar />
         <Rules />
         <Timeline />
-        {/* <Sponsors />
-        <Organizers /> */}
+        <Sponsors />
+        <Organizers />
         <Acomplishments />
       </Layout>
     </>

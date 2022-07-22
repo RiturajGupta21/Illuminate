@@ -7,7 +7,6 @@ import { sponsors } from './Sponsprdata';
 const Organizers = () => (
   <Section nopadding id="sponsors">
     <SectionTitle main>Partners & Sponsors</SectionTitle>
-    <Hr />
     <GridContainer>
       {sponsors.map((p, i) => {
         return (

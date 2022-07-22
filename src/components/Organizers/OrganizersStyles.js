@@ -10,16 +10,14 @@ export const Img = styled.img`
 
 export const GridContainer = styled.section`
 display: grid;
-grid-template-columns: repeat(2, 1fr);
-padding: 3rem;
+grid-template-columns: repeat(4, 1fr);
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   flex-direction: column;
-  padding: 2rem;
   padding-bottom: 0;
 }
 
@@ -28,11 +26,12 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   text-align: center;
   margin: 2px;
-  width: 200px;
+  width: 100px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100px;
+    width: 70px;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
@@ -40,22 +39,20 @@ export const TitleContent = styled.div`
 
 `;
 
-
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: ${(props) => props.title ? '2rem' : '2rem'};
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 `;
 
 export const Hr = styled.hr`
   width: 50px;
   height: 3px;
-  margin: 20px auto;
+  margin: 10px auto;
   border: 0;
   background: #d0bb57;
 `;
@@ -65,5 +62,5 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: 1rem 0;
 `;

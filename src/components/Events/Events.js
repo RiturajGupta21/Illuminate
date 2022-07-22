@@ -33,7 +33,7 @@ const Events = () => (
                 })}
               </TagList>
             </div>
-            <TitleContent style={{ textAlign: 'left', marginLeft: '20px' }}>Timing: - </TitleContent>
+            {/* <TitleContent style={{ textAlign: 'left', marginLeft: '20px' }}>Timing: - </TitleContent>
             <TagList>
               {p.tags2.map((t, i) => {
                 return <Tag key={i}>{t}</Tag>;
@@ -44,10 +44,11 @@ const Events = () => (
               {p.tags1.map((t, i) => {
                 return <Tag key={i}><LinkItem href={[`tel:${t.substring(t.length - 11,t.length-1)}`]}>{t}</LinkItem></Tag>;
               })}
-            </TagList>
+            </TagList> */}
             <UtilityList>
-              <ExternalLinks href={p.visit} target ="_blank">Register</ExternalLinks>
-              {/* <ExternalLinks href={p.source}>Images</ExternalLinks> */}
+              {/* <ExternalLinks href={p.visit} target ="_blank">Register</ExternalLinks> */}
+              {/* <ExternalLinks href={p.source}>Know More</ExternalLinks> */}
+              <ExternalLinks>Registration Closed</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );
